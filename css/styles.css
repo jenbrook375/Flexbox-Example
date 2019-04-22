@@ -35,6 +35,7 @@ h1 {
 
 .two {
     background: palevioletred;
+    align-self: flex-start;
 }
 
 .three {
