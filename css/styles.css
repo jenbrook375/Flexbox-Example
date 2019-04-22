@@ -1,3 +1,50 @@
 .container {
-    
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+}
+
+.block-1 {
+    display: flex;
+    border: 1px solid black;
+    height: 600px;
+    align-items: flex-end
+}
+
+.box {
+    display: flex;
+    height: 300px;
+    margin: 10px;
+    font-size: 100px;
+}
+
+.one, .two {
+    width: 300px;
+}
+
+.three, .four {
+    width: 500px;
+}
+
+.one {
+    background: rebeccapurple;
+}
+
+.two {
+    background: palevioletred;
+}
+
+.three {
+    background: blueviolet;
+}
+
+.four {
+    background: plum;
+}
+
+p {
+    margin: auto;
 }
