@@ -9,9 +9,11 @@ h1 {
 
 .block-1 {
     display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
     border: 1px solid black;
-    height: 600px;
-    align-items: flex-end
+    height: 645px;
+    align-items: flex-start;
 }
 
 .box {
@@ -19,13 +21,10 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 300px;
     margin: 10px;
     font-size: 100px;
-}
-
-.one, .two {
-    width: 300px;
 }
 
 .three, .four {
@@ -34,22 +33,30 @@ h1 {
 
 .one {
     background: rebeccapurple;
+    width: 340px;
 }
 
 .two {
     background: palevioletred;
-    align-self: flex-start;
+    width: 300px;
 }
 
 .three {
     background: blueviolet;
+    width: 400px;
 }
 
 .four {
     background: plum;
+    width: 600px;
 }
 
+<<<<<<< HEAD
 /*p {
     flex-direction: column;
     align-items: center;
+=======
+/* p {
+    margin: auto;
+>>>>>>> a980f6bb278c6abf87a1966827d8c329993480ec
 }*/
