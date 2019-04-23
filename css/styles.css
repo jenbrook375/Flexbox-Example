@@ -9,8 +9,9 @@ h1 {
 
 .block-1 {
     display: flex;
+    flex-direction: column;
     border: 1px solid black;
-    height: 600px;
+    height: 985px;
     align-items: flex-end
 }
 
@@ -49,7 +50,12 @@ h1 {
     background: plum;
 }
 
+<<<<<<< HEAD
 /*p {
     flex-direction: column;
     align-items: center;
+=======
+/* p {
+    margin: auto;
+>>>>>>> a980f6bb278c6abf87a1966827d8c329993480ec
 }*/
