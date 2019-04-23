@@ -16,6 +16,9 @@ h1 {
 
 .box {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 300px;
     margin: 10px;
     font-size: 100px;
@@ -46,6 +49,7 @@ h1 {
     background: plum;
 }
 
-p {
-    margin: auto;
-}
+/*p {
+    flex-direction: column;
+    align-items: center;
+}*/
